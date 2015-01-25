@@ -1,0 +1,16 @@
+\documentclass{tfinvoice}
+\setkomavar{customernumber}{1234}
+\setkomavar{invoicenumber}{2015-01}
+\setkomavar{date}{31.01.2015}
+\begin{document}
+\begin{letter}{%
+	Max Mustermann\\
+	Musterstraße 1\\
+	D-12345 Musterstadt%
+}
+\begin{invoicelist}
+	\newitem{Beschreibung des verkauften Produktes}{74,99}{1}
+	\newitem{Beschreibung der erbrachten Dienstleistung}{140}{2,5}
+\end{invoicelist}
+\end{letter}
+\end{document}

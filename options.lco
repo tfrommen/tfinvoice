@@ -1,0 +1,65 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Identification
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ProvidesFile{options.lco}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Options
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\LoadLetterOption{DIN}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Required packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[ngerman]{babel}
+\RequirePackage[T1]{fontenc}
+\RequirePackage[left=24.1mm,right=24.1mm,bottom=30mm]{geometry}
+\RequirePackage[utf8]{inputenc}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\npstylegerman
+\nprounddigits{2}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   Variables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\logo{logo}
+
+\setkomavar{fromname}{Dagobert Duck}
+\setkomavar{fromaddress}{Entenstraße 1\\D-54321 Entenhausen}
+
+\setkomavar{fromphonelabel}{\textbf{T}}
+\setkomavar{fromphone}{+49\,123~45\,67\,89}
+\setkomavar{fromfaxlabel}{\textbf{F}}
+\setkomavar{fromfax}{+49\,123~45\,67\,88}
+
+\setkomavar{customernumberlabel}{Kundennummer:}
+\setkomavar{invoicenumberlabel}{Rechnungsnummer:}
+\setkomavar{datelabel}{Rechnungsdatum:}
+
+\setkomavar{subject}{Rechnung}
+
+\setkomavar{positionlabel}{Pos.}
+\setkomavar{descriptionlabel}{Beschreibung}
+\setkomavar{singlepricelabel}{Einzelpreis}
+\setkomavar{quantitylabel}{Anzahl}
+\setkomavar{subtotallabel}{Gesamtpreis}
+\setkomavar{currency}{EUR}
+\setkomavar{totallabel}{Gesamtbetrag}
+
+\setkomavar{beforeclosing}{Umsatzsteuerfrei aufgrund der Kleinunternehmer-Regelung gemäß §~19 Abs.~1 UStG.\\[1em]
+Zahlbar innerhalb 14 Tagen ab Rechnungsdatum.}
+\setkomavar{closing}{Vielen Dank für Ihren Auftrag.}
+
+\setkomavar{bankaccountlabel}{\textbf{Bankverbindung}:}
+\setkomavar{bankaccount}{IBAN: DE19\,1234\,1234\,1234\,1234\,12\\BIC: AACSDE33}
+\setkomavar{taxidnumberlabel}{\textbf{USt-IdNr.}:}
+\setkomavar{taxidnumber}{DE999999999}
+
+\setkomavar{pagelabel}{Seite}
